@@ -1,0 +1,157 @@
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	background-image: url(https://i.ibb.co/dtW98CZ/background-noite.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #f4f4f4
+	margin: 0; 
+	padding: 0;
+}
+
+nav {
+	background-color: blue;
+	text-align: center;
+	display: inline;
+    width: 150px;
+    margin: 0px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	
+}
+
+
+li a {
+	font-family: Arial;
+	font-size:25px;
+	display: inline;
+	color: white;
+	text-align: center;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	text-decoration: none;
+	overflow: hidden;
+}
+
+li {
+	display:inline-block;
+	text-align:left;	
+}
+li a:hover {
+    color:  #00FFFF;
+}
+
+
+p.nome_principal {
+	text-align: center;
+	color: #3E3E3E;
+	padding-top: 2%;
+	font-family: "Lato", sans-serif;
+	font-size: 90px;
+	padding-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+p.resumo_principal {
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 35px;
+	font-weight:normal;
+	margin-top: 0px;
+}
+
+
+
+div.container{
+	background-color: white;
+	margin-top: 600px;
+	padding-top: 1px;
+	padding-bottom: 20px;
+}
+div.container-2{
+	background-color: white;
+	padding-top: 1px;
+	padding-bottom: 20px;
+	
+
+}
+
+.sobre_h1{
+	text-align: center;
+	font-family: "Lato", sans-serif;
+	font-size: 46px;
+}
+
+.sobre_p {
+	font-size: 26px;
+	text-align:justify;
+	margin-right:100px;
+	margin-left:100px;
+}
+
+footer {
+   	left: 0;
+   	bottom: 0;
+   	width: 100%;
+   	background-color: white;
+   	color: black;
+   	text-align: center;
+}
+
+.flex-item h2 {
+	margin: 0;
+	padding: 0;
+}
+
+.flex-container {
+	background-color: white;
+	max-width: 1500px;
+	max-height: 2000px;
+	display: flex;
+	align-content: center;
+	flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.flex-item {
+	border: 2px solid grey;
+	margin: 20px;
+	width: 250px;
+	height: max-content;
+	flex-direction: column;
+
+}
+
+.flex-img {
+	margin-top: 45px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100px;
+	height: 100px;
+}
+
+.flex-txt {
+    font-family: 'Roboto Mono', monospace;
+	text-align: center;
+}
+
+.flex-exp {
+	text-align: center;
+	visibility: hidden;
+}
